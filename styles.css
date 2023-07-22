@@ -146,4 +146,12 @@ html {
     color: #00beef;
   }
 
+  .image-wrapper {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(3, min-content);
+  }
+
+
 
